@@ -1,0 +1,156 @@
+body.active_one header nav ul li.active {
+  background: #000 !important; }
+body.active_one .cowboy_cont_one a {
+  background: #000 !important; }
+body.active_one footer {
+  background: #000 !important; }
+body.active_one .products ul li {
+  border: 1px solid #000 !important; }
+body.active_one .products ul li.active {
+  background: #000 !important; }
+
+body.active_two header nav ul li.active {
+  background: #2754af !important; }
+body.active_two .cowboy_cont_one a {
+  background: #2754af !important; }
+body.active_two footer {
+  background: #0d1c3a !important; }
+body.active_two .products ul li {
+  border: 1px solid #2754af !important; }
+body.active_two .products ul li.active {
+  background: #2754af !important; }
+
+body.active_three header nav ul li.active {
+  background: #e90266 !important; }
+body.active_three .cowboy_cont_one a {
+  background: #e90266 !important; }
+body.active_three footer {
+  background: #52011e !important; }
+body.active_three .products ul li {
+  border: 1px solid #e90266 !important; }
+body.active_three .products ul li.active {
+  background: #e90266 !important; }
+
+body.active_four header nav ul li.active {
+  background: #ff6200 !important; }
+body.active_four .cowboy_cont_one a {
+  background: #ff6200 !important; }
+body.active_four footer {
+  background: #2c1e15 !important; }
+body.active_four .products ul li {
+  border: 1px solid #ff6200 !important; }
+body.active_four .products ul li.active {
+  background: #ff6200 !important; }
+
+body.active_five header nav ul li.active {
+  background: #7d4c90 !important; }
+body.active_five .cowboy_cont_one a {
+  background: #7d4c90 !important; }
+body.active_five footer {
+  background: #241729 !important; }
+body.active_five .products ul li {
+  border: 1px solid #7d4c90 !important; }
+body.active_five .products ul li.active {
+  background: #7d4c90 !important; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+* img {
+  display: block; }
+
+/***********************header begin***********************/
+header {
+  padding: 21px 0; }
+  header > div {
+    float: left; }
+  header nav {
+    float: left; }
+    header nav ul {
+      padding-top: 17px;
+      padding-left: 382px; }
+      header nav ul li {
+        float: left;
+        width: 80px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 14px;
+        margin-right: 3px; }
+        header nav ul li a {
+          color: #666666; }
+        header nav ul li.active, header nav ul li:hover {
+          background: #000; }
+          header nav ul li.active a, header nav ul li:hover a {
+            color: #fff; }
+  header .peeler {
+    padding: 19px 0;
+    float: right; }
+    header .peeler p a {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-left: 5px; }
+      header .peeler p a:nth-of-type(1) {
+        background: #000000; }
+      header .peeler p a:nth-of-type(2) {
+        background: #7D4C90; }
+      header .peeler p a:nth-of-type(3) {
+        background: #FF6200; }
+      header .peeler p a:nth-of-type(4) {
+        background: #E90266; }
+      header .peeler p a:nth-of-type(5) {
+        background: #2754AF; }
+
+/***********************header end***********************/
+/***********************footer begin***********************/
+footer {
+  background: #000;
+  width: 100%; }
+  footer .footer_top {
+    border-bottom: 1px solid #333333; }
+    footer .footer_top p {
+      height: 80px;
+      line-height: 80px; }
+      footer .footer_top p a {
+        font-size: 14px;
+        color: #efefef;
+        text-decoration: underline;
+        text-transform: uppercase; }
+  footer .footer_main {
+    padding: 2px 0 24px 0;
+    font-size: 14px;
+    color: #efefef; }
+    footer .footer_main ul li {
+      float: left;
+      width: 20%; }
+      footer .footer_main ul li h4 {
+        height: 70px;
+        line-height: 70px; }
+      footer .footer_main ul li p {
+        height: calc(80px / 3);
+        line-height: calc(80px / 3); }
+      footer .footer_main ul li input[type="text"] {
+        width: 240px;
+        height: 30px;
+        line-height: 30px;
+        box-shadow: 0px 0px 1px #666 inset !important;
+        border: 1px solid #323232;
+        background: none !important;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        color: #e0f0f9; }
+  footer .footer_bottom {
+    border-top: 1px solid #333; }
+    footer .footer_bottom p {
+      color: #666666;
+      height: 95px;
+      line-height: 95px;
+      font-size: 12px;
+      text-align: center; }
+
+/***********************footer end***********************/
+
+/*# sourceMappingURL=common.css.map */
